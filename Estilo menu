@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    line-height: 150%;
+    font-size: px;
+
+}
+
+body{
+    font-size: 10px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("240_F_408517872_u7m4me8l83eenmUcsJ1ArSZymm5Unz4X.jpg");
+}
+
+
+main{
+    background-image: url("240_F_449858397_JqoWrVWtdAvWiKuiuTGxHxwxpxAmu8fA.jpg");
+    background-attachment: scroll;
+}
+#boton-whatsapp {
+    background-color: hsl(142, 70%, 49%);
+    display: inline-block;
+    box-shadow: 3px 3px 4px hsla(0, 0%, 0%, .1);
+    border-radius: 32px;
+    background-image: url('icono-whatsapp.png');
+    height: 64px;
+    width: 64px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+}
